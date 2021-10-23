@@ -1,0 +1,27 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "2nd practice work at MetaLamp",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourOwnTenshi/MetaLampPractice2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YourOwnTenshi/MetaLampPractice2/issues"
+  },
+  "homepage": "https://github.com/YourOwnTenshi/MetaLampPractice2#readme",
+  "devDependencies": {
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
