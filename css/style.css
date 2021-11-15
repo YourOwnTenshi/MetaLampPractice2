@@ -59,18 +59,57 @@ main {
   width: 297px;
 }
 
-.subscriptionField {
-  padding: 12px 0 8px 15px;
+.textInput {
+  padding: 15px;
   background: #ffffff;
   border: 1px solid rgba(31, 32, 65, 0.25);
   box-sizing: border-box;
   border-radius: 4px;
+  width: 100%;
 }
 
-.subscriptionField::placeholder {
+.subscriptionField {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* .subscriptionField input {
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+} */
+
+.textInput:hover,
+.textInput:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+}
+
+.subscriptionField input::placeholder {
   font-family: Montserrat, sans-serif;
   color: rgba(31, 32, 65, 0.25);
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+}
+
+.subscriptionField img {
+  position: absolute;
+  padding: 14px;
+  left: calc(100% - 47px);
+}
+
+.datesSelectiors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 21px;
+}
+
+.arrivalDate,
+.departureDate {
+  width: 150px;
 }
