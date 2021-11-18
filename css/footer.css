@@ -23,13 +23,6 @@ footer {
   line-height: 23px;
 }
 
-.fab {
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .footerTop {
   display: flex;
   justify-content: space-between;
@@ -45,4 +38,18 @@ footer {
   flex-direction: column;
   gap: 20px;
   max-width: 260px;
+}
+
+.subscriptionField input::placeholder {
+  font-family: Montserrat, sans-serif;
+  color: rgba(31, 32, 65, 0.25);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.subsriptionArrow {
+  position: absolute;
+  padding: 14px;
+  left: calc(100% - 47px);
 }
