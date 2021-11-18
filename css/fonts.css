@@ -28,3 +28,7 @@ h3 {
   text-transform: uppercase;
   color: #1f2041;
 }
+
+a {
+  text-decoration: none;
+}
