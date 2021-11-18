@@ -37,9 +37,37 @@ main {
 
 .widget {
   background-color: white;
-  padding: 40px 30px 30px 30px;
+  padding: 30px;
   width: 380px;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetElement {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.widgetElement h3 {
+  padding-bottom: 5px;
+}
+
+.proceedButton {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.proceedButton button {
+  width: 100%;
+}
+
+.proceedButton img {
+  position: absolute;
+  padding: 14px;
+  left: calc(100% - 47px);
 }
 
 .landingPaddings {
@@ -83,7 +111,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 21px;
 }
 
 .arrivalDate,

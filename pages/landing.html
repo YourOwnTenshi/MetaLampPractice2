@@ -32,10 +32,11 @@
     </header>
     <main class="containerPaddings landingPaddings mainLandingContainer">
         <div class="widget">
-             <h1>
+             <h1 class="widgetElement">
                 Найдём номера под ваши пожелания
             </h1>
-            <div class="datesSelectiors">
+
+            <div class="datesSelectiors widgetElement">
                 <div class="arrivalDate">
                     <h3>Прибытие</h3>
                     <input type="date" class="textInput arrivalInput"/>
@@ -45,7 +46,18 @@
                     <input type="date" class="textInput departureInput"/>
                 </div>
             </div>
+
+            <div class="widgetElement">
+                <h3>Гости</h3>
+                <input type="number" class="textInput guestInput" />
+            </div>
+            
+            <div class="proceedButton">
+                <button class="button naked solid">Подобрать номер </button>
+                <img alt="white arrow" src="../lib/arrowWhite.svg" />
+            </div>
         </div>
+
         <p class="landingBottomText">
             Лучшие номера для вашей работы, отдыха и просто вдохновения 
         </p>
